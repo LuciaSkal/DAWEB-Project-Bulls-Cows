@@ -2,6 +2,181 @@ html {
   box-sizing: border-box;
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: inherit;
 }
+h1,
+h2,
+p,
+body {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: 'Shadows Into Light Two';
+}
+p {
+  font-size: 1.1em;
+}
+
+/*________________________1.STRANA________________________*/
+
+body {
+  background-image: url(img/background.jpeg);
+  background-attachment: fixed;
+  background-size: cover;
+  overflow: hidden;
+}
+
+/*_ÚVODNÍ STRANA - ZAVŘENÝ BLOK_*/
+.first_container {
+  max-width: 580px;
+  margin: 20px auto;
+  position: relative;
+}
+
+.background-image_first {
+  width: 100%;
+  padding-top: 130%;
+  background-image: url(img/ntb_closed.svg);
+  background-size: cover;
+  position: absolute;
+  z-index: -1;
+}
+
+/*_OBSAH BLOKU - 1.STRANA*/
+.cover-contain {
+  padding-left: 6em;
+}
+
+header {
+  padding-top: 12%;
+}
+
+main {
+  display: flex;
+  margin-top: 10%;
+  margin-bottom: 12%;
+}
+
+/*doplníme obázek krávy a býka*/
+.obrazek {
+  position: relative;
+  width: 12em;
+  height: 12em;
+  border-radius: 50%;
+  background-color: black;
+  margin: 10px;
+}
+
+.heading {
+  position: relative;
+  padding-top: 40%;
+}
+
+footer {
+  display: flex;
+}
+footer p {
+  padding-top: 40px;
+}
+
+footer a {
+  margin-left: 50%;
+  width: 5em;
+  height: 5em;
+  background-color: wheat;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  padding-top: 1.5em;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+/*______________________2.STRANA - pravidla (stránka nalevo)______________________*/
+
+.second_container {
+  display: flex;
+  max-width: 1000px;
+  margin: 40px auto;
+  position: relative;
+}
+
+.background-image_second {
+  width: 100%;
+  padding-top: 72%;
+  background-image: url(img/ntb_open.svg);
+  background-size: cover;
+  position: absolute;
+  z-index: -1;
+}
+
+.left-page {
+  border: solid black 1px; /*rámeček jen pro představu kontejneru,potom smažeme*/
+  width: 44%;
+  margin-top: 1em;
+  margin-left: 1em;
+}
+
+.second_container h1 {
+  padding: 10px;
+  text-align: center;
+}
+
+.note {
+  border: solid black 1px;
+  width: 70%;
+  height: 17em;
+  padding: 1em;
+  margin: 1em;
+  text-align: center;
+}
+
+#second_note {
+  margin-left: 5em;
+}
+
+.smiley {
+  width: 1em;
+  height: 1em;
+}
+
+/*____________________3.STRANA - příklad na ukázku (stránka napravo)____________________*/
+
+.right-page {
+  border: solid black 1px; /*rámeček jen pro představu kontejneru,potom smažeme*/
+  width: 44%;
+  margin-top: 1em;
+  margin-left: 3em;
+  padding: 1em;
+  text-align: center;
+}
+.right-page p {
+  margin: 10px;
+}
+.right-page h2 {
+  margin-bottom: 1em;
+}
+
+.pointers {
+  display: flex;
+}
+
+.secret-code {
+  font-size: 3em;
+  letter-spacing: 10px;
+}
+
+.guess-contain {
+  margin-top: 2em;
+}
+
+.guess {
+  font-size: 2em;
+  letter-spacing: 10px;
+}
+
+/*____________________4.STRANA - info o nás____________________*/

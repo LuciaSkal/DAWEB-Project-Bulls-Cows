@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="cs">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&display=swap"
+      rel="stylesheet"
+    />
+    <title>Bulls&Cows</title>
+  </head>
+  <body>
+    <div class="second_container">
+      <div class="background-image_second"></div>
+      <div class="left-page">
+        <h1>Pravidla</h1>
+        <div class="rules">
+          <div class="note">
+            <p>
+              logická hra <br />
+              BULLS & COWS <br />
+              Princip hry spočívá v tom odhalit tajný vygenerovaný číselný kód.
+              Na začátku hry se vygeneruje čtyřmístný kód (pro ty odvážnější
+              šesti nebo až osmimístný) a hráč začne tipovat náhodná čísla.
+            </p>
+          </div>
+          <div class="note" id="second_note">
+            <p>
+              Když trefí správné číslo na správné pozici - označujeme jako
+              "bull", pokud trefí správné číslo, ale na špatné pozici -
+              označujeme jako "cow". A díky těmto nápovědám by se měl hráč
+              postupně dopracovat k tajnému kódu. Nejlépe co nejrychleji a s
+              minimálním počtem pokusů.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="right-page">
+        <h2>příklad na ukázku</h2>
+        <p>
+          vygeneruje se tajný kód, který samozřejmě nebudeme znát
+          <img class="smiley" src="img/smiley_icon.svg" alt="" /> ale dejme
+          tomu, že to je například tento kód
+        </p>
+        <div class="secret-code">
+          <p>
+            6<span style="color: #7a1a8e">2</span
+            ><span style="color: #f26deb">4</span>5
+          </p>
+        </div>
+        <p>
+          správné číslo na správné pozici =
+          <span style="color: #7a1a8e">bull</span> <br />
+          správné číslo na špatné pozici =
+          <span style="color: #f26deb">cow</span>
+        </p>
+
+        <div class="guess-contain">
+          <p>hráč začne tipovat náhodna čísla například:</p>
+          <div class="guess">
+            <p>
+              1<span style="color: #7a1a8e">2</span>3<span
+                style="color: #f26deb"
+                >4</span
+              >
+            </p>
+          </div>
+          <div class="pointers">
+            <p>
+              <span style="color: #7a1a8e">1 x bull</span> <br />
+              odhaleno jedno číslo z tajného kódu, které je na správné pozici
+            </p>
+            <p>
+              <span style="color: #f26deb">1 x cow</span> <br />
+              odhaleno jedno správné číslo z kódu, ale je umístěné na jiné
+              pozici
+            </p>
+          </div>
+
+          <p>
+            dalšími číselnými tipy se hráč snaží odhalit celý kód. Cílem hry je
+            získat 4x bulls
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
