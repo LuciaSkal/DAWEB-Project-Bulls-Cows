@@ -76,26 +76,46 @@ main {
   padding-top: 40%;
 }
 
-footer {
-  display: flex;
-}
-footer p {
-  padding-top: 40px;
-}
 
-footer a {
-  margin-left: 50%;
-  width: 5em;
-  height: 5em;
+button {
+  position: absolute;
+  left: 65%;
+  top: 4%;
+  width: 4rem;
+  height: 4rem;
   background-color: wheat;
-  text-decoration: none;
   color: black;
   text-align: center;
-  padding-top: 1.5em;
+  border: 1px solid black;
   border-radius: 50%;
   cursor: pointer;
 }
 
+button a {
+  text-decoration: none;
+  color: black;
+  font-family: 'Shadows Into Light Two';
+  font-weight: bold;
+}
+
+.about {
+  position: relative;
+}
+
+
+.about-us {
+  position: relative;
+  left: 2%;
+  bottom: 10%;
+}
+
+span {
+  font-size: 30px;
+}
+
+.about-us a {
+  font-size: 25px;
+}
 /*______________________2.STRANA - pravidla (stránka nalevo)______________________*/
 
 .second_container {
@@ -180,3 +200,5 @@ footer a {
 }
 
 /*____________________4.STRANA - info o nás____________________*/
+
+
