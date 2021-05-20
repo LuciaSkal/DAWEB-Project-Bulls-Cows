@@ -110,11 +110,17 @@ button a {
 }
 
 span {
-  font-size: 30px;
+  font-size: 40px;
 }
 
 .about-us a {
-  font-size: 25px;
+  padding: 2px;
+  font-size: 2em;
+  color: black;
+  text-decoration: none;
+  border: 1px solid black;
+  border-radius: 50%;
+  background-color: wheat;
 }
 /*______________________2.STRANA - pravidla (stránka nalevo)______________________*/
 
