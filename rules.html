@@ -17,26 +17,26 @@
       <div class="background-image_second"></div>
       <div class="left-page">
         <h1>Pravidla</h1>
-        <div class="rules">
-          <div class="note">
-            <p>
-              logická hra <br />
-              BULLS & COWS <br />
-              Princip hry spočívá v tom odhalit tajný vygenerovaný číselný kód.
-              Na začátku hry se vygeneruje čtyřmístný kód (pro ty odvážnější
-              šesti nebo až osmimístný) a hráč začne tipovat náhodná čísla.
-            </p>
-          </div>
-          <div class="note" id="second_note">
-            <p>
-              Když trefí správné číslo na správné pozici - označujeme jako
-              "bull", pokud trefí správné číslo, ale na špatné pozici -
-              označujeme jako "cow". A díky těmto nápovědám by se měl hráč
-              postupně dopracovat k tajnému kódu. Nejlépe co nejrychleji a s
-              minimálním počtem pokusů.
-            </p>
-          </div>
+        <!-- <div class="rules"> -->
+        <div class="note" id="first-note">
+          <p>
+            logická hra <br />
+            BULLS & COWS <br />
+            Princip hry spočívá v tom odhalit tajný vygenerovaný číselný kód. Na
+            začátku hry se vygeneruje čtyřmístný kód (pro ty odvážnější šesti
+            nebo až osmimístný) a hráč začne tipovat náhodná čísla.
+          </p>
         </div>
+        <div class="note" id="second-note">
+          <p>
+            Když trefí správné číslo na správné pozici - označujeme to dané
+            číslo jako "bull", pokud trefí správné číslo, ale na špatné pozici -
+            označujeme jako "cow". A díky těmto nápovědám by se měl hráč
+            postupně dopracovat k tajnému kódu. Nejlépe co nejrychleji a s
+            minimálním počtem pokusů.
+          </p>
+        </div>
+        <!-- </div> -->
       </div>
 
       <div class="right-page">
@@ -52,12 +52,6 @@
             ><span style="color: #f26deb">4</span>5
           </p>
         </div>
-        <p>
-          správné číslo na správné pozici =
-          <span style="color: #7a1a8e">bull</span> <br />
-          správné číslo na špatné pozici =
-          <span style="color: #f26deb">cow</span>
-        </p>
 
         <div class="guess-contain">
           <p>hráč začne tipovat náhodna čísla například:</p>
@@ -69,7 +63,13 @@
               >
             </p>
           </div>
-          <div class="pointers">
+          <p>
+            správné číslo na správné pozici =
+            <span style="color: #7a1a8e">bull</span> <br />
+            správné číslo na špatné pozici =
+            <span style="color: #f26deb">cow</span>
+          </p>
+          <div class="hint">
             <p>
               <span style="color: #7a1a8e">1 x bull</span> <br />
               odhaleno jedno číslo z tajného kódu, které je na správné pozici
@@ -83,9 +83,12 @@
 
           <p>
             dalšími číselnými tipy se hráč snaží odhalit celý kód. Cílem hry je
-            získat 4x bulls
+            získat 4x bull
           </p>
         </div>
+        <!-- <div class="second-sticker">
+          <a href="aboutus.html">about us</a>
+        </div> -->
       </div>
     </div>
   </body>
