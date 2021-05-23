@@ -143,8 +143,8 @@ main {
 
 .second_container {
   display: flex;
-  max-width: 120vmin;
-  
+  max-width: 1000px;
+
   margin: 40px auto;
   position: relative;
 }
@@ -164,9 +164,8 @@ main {
   margin-left: 1em;
 }
 
-.second_container h1 {
-  padding: 10px;
-  text-align: center;
+.rules {
+  margin-top: 1em;
 }
 
 .note {
@@ -222,7 +221,6 @@ main {
 }
 
 .right-page p {
- 
   margin: 10px;
   margin-left: 40px;
 }
@@ -273,34 +271,17 @@ main {
 
 /*____________________4.STRANA - info o nás____________________*/
 
-.polaroid {
-  width: 65%;
-}
-
-.git-icon {
-  width: 2em;
-  height: 2em;
-}
-
 /*Luci*/
-.left-page {
+
+/* .left-page {
   max-width: 60vw;
   max-height: 80vh;
-}
+} */
 .lucia {
-  margin-top: 10%;
-  margin-left: 35%;
-  width: 40%;
-  border-radius: 50%;
-}
-.name {
-  font-size: 2rem;
-  font-weight: bolder;
-  text-align: center;
-  padding-left: 1em;
   margin-top: 5%;
+  margin-left: 28%;
+  width: 56%;
 }
-
 .info {
   margin-top: 2rem;
   width: 80%;
@@ -315,7 +296,7 @@ main {
   font-size: 1em;
 }
 .left-page a {
-  padding-top: 2rem;
+  padding-top: 1rem;
   margin-left: 50%;
   text-decoration: none;
   font-weight: 600;
@@ -324,6 +305,120 @@ main {
 /*Sab*/
 .right-page p {
   width: 80%;
-  font-weight: 600;
-  font-size: 1em;
+}
+.polaroid {
+  width: 65%;
+  margin-left: 13%;
+}
+
+.git-icon {
+  width: 2em;
+  height: 2em;
+}
+.right-page a {
+  color: black;
+  text-decoration: none;
+}
+.right-page a:hover {
+  font-weight: bold;
+}
+
+/*ODKAZY*/
+
+.home-page {
+  background-image: url('img/sticky_paper.svg');
+  background-size: cover;
+  width: 34%;
+  height: 3.5em;
+}
+
+.home-page a {
+  margin-left: 0.5em;
+  padding-top: 0.2em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+  font-size: 1.5em;
+  font-weight: normal;
+}
+
+.home-page a:hover {
+  font-weight: bold;
+}
+
+.home-icon {
+  width: 2em;
+  height: 2em;
+  margin-top: 5px;
+  margin-left: 2em;
+}
+
+.home-link {
+  display: flex;
+}
+
+/*_____________*/
+
+.rules-page {
+  background-image: url('img/sticky_paper.svg');
+  background-size: cover;
+  width: 34%;
+  height: 3.5em;
+}
+.rules-page a {
+  margin-left: 0.5em;
+  padding-top: 0.2em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+  font-size: 1.5em;
+  font-weight: normal;
+}
+
+.rules-page a:hover {
+  font-weight: bold;
+}
+
+.rules-icon {
+  width: 2em;
+  height: 2em;
+  margin-top: 5px;
+  margin-left: 2em;
+}
+.rules-link {
+  display: flex;
+}
+
+/*_____________*/
+
+.aboutUs-page {
+  background-image: url('img/sticky_paper2.svg');
+  background-size: cover;
+  width: 43%;
+  height: 3.7em;
+  margin-left: 61%;
+  margin-top: 2em;
+}
+.aboutUs-page a {
+  margin-left: 0.5em;
+  padding-top: 0.4em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+  font-size: 1.4em;
+  font-weight: normal;
+}
+
+.aboutUs-page a:hover {
+  font-weight: bold;
+}
+
+.girl-icon {
+  width: 2em;
+  height: 2em;
+  margin-top: 5px;
+  margin-right: 0.2em;
+}
+.aboutUs-link {
+  display: flex;
 }
