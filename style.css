@@ -323,13 +323,14 @@ main {
   font-weight: bold;
 }
 
-/*ODKAZY*/
+/*ODKAZY-MENU*/
 
 .home-page {
   background-image: url('img/sticky_paper.svg');
   background-size: cover;
   width: 34%;
   height: 3.5em;
+  margin-left: -2em;
 }
 
 .home-page a {
@@ -364,6 +365,7 @@ main {
   background-size: cover;
   width: 34%;
   height: 3.5em;
+  margin-left: -2em;
 }
 .rules-page a {
   margin-left: 0.5em;
@@ -396,17 +398,16 @@ main {
   background-size: cover;
   width: 43%;
   height: 3.7em;
-  margin-left: 61%;
+  margin-left: 70%;
   margin-top: 2em;
 }
 .aboutUs-page a {
-  margin-left: 0.5em;
+  margin-left: 0.4em;
   padding-top: 0.4em;
   text-transform: uppercase;
   text-decoration: none;
   color: black;
   font-size: 1.4em;
-  font-weight: normal;
 }
 
 .aboutUs-page a:hover {
@@ -414,10 +415,9 @@ main {
 }
 
 .girl-icon {
-  width: 2em;
-  height: 2em;
+  width: 2.5em;
+  height: 2.5em;
   margin-top: 5px;
-  margin-right: 0.2em;
 }
 .aboutUs-link {
   display: flex;
